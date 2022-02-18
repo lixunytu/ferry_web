@@ -179,6 +179,7 @@ export default {
   created() {
     // window.addEventListener('storage', this.afterQRScan)
     this.getCurrentTime()
+    this.getCode()
   },
   mounted() {
     if (this.loginForm.username === '') {
